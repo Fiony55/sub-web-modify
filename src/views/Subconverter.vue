@@ -348,7 +348,7 @@ export default {
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
-         "自用专属后端": "https://suba.zing.ccwu.cc",
+         "自用专属后端": "https://subapi.zing.dpdns.org",
          "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
          "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
          "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -358,7 +358,7 @@ export default {
          "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
-      { value: "https://suba.zing.ccwu.cc" }, 
+      { value: "https://subapi.zing.dpdns.org" }, 
       { value: "https://subapi.cmliussss.net" },
       { value: "https://subapi.fxxk.dedyn.io" },
       { value: "https://url.v1.mk" },
@@ -798,7 +798,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://suba.zing.ccwu.cc" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subapi.zing.dpdns.org" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
